@@ -52,7 +52,7 @@ const schoolId = '2';
 function result(students, schoolId) {
   // Your Code Here
 
- return students.filter((students) => students.schoolId === "2");
+ return students.filter((students) => students.school.id === "2");
 }
 
 console.log(result(students, schoolId));
