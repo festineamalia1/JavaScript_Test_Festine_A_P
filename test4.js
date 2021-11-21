@@ -51,6 +51,7 @@ const schoolId = '2';
 
 function result(students, schoolId) {
   // Your Code Here
+  students.filter((schoolId) => schoolId === "2");
 }
 
 console.log(result(students, schoolId));
