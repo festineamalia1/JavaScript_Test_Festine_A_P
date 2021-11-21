@@ -9,6 +9,8 @@ const arr2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 function result(arr1, arr2) {
   // Your Code Here
+ 
+  return Array.from(new Set(arr1.concat(arr2)));
 }
 
 console.log(result(arr1, arr2));
